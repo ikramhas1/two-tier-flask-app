@@ -47,9 +47,9 @@ spec:
       nodePort: 30004
   type: NodePort
 
-  ---
+---
 
-  apiVersion: apps/v1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: mysql
@@ -79,4 +79,3 @@ spec:
               value: "admin"
           ports:
             - containerPort: 3306
-          
